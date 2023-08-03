@@ -15,8 +15,8 @@ dependencies:
     sdk: flutter
   agora_rtc_engine:
     git:
-      url: https://github.com/AgoraIO/Agora-Flutter-SDK.git
-      ref: 6970d96ac225f0f089431e695ef02aebe9b0f661
+      url: https://github.com/ganjiajun-ola/Agora-Flutter-SDK.git
+      ref: dev/allow-windows
 
 
 dev_dependencies:
@@ -43,8 +43,8 @@ flutter:
   #        pluginClass: AgoraRtcRawdataPlugin
   #      macos:
   #        pluginClass: AgoraRtcRawdataPlugin
-  #      windows:
-  #        pluginClass: AgoraRtcRawdataPlugin
+      windows:
+        pluginClass: AgoraRtcRawdataPlugin
   #      web:
   #        pluginClass: AgoraRtcRawdataWeb
   #        fileName: agora_rtc_rawdata_web.dart
