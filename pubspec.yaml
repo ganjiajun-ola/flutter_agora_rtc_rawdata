@@ -15,7 +15,7 @@ dependencies:
     sdk: flutter
   agora_rtc_engine:
     git:
-      url: https://github.com/ganjiajun-ola/Agora-Flutter-SDK.git
+      url: git@github.com:ganjiajun-ola/Agora-Flutter-SDK.git
       ref: dev/allow-windows
 
 
